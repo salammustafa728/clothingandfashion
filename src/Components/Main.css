@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+
+:root {
+  --main-color: #FAFF00;
+  --border-color: #ddd;
+  --font-family:'Roboto', sans-serif;
+}
+.hero {
+  height: 40em;
+  background: url("./images/Background.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.claim {
+  color: #dbdbdb;
+  font-size: 2.5em;
+  padding: 22% 7em 0 2em;
+  position: relative;
+  text-align: center;
+  margin-left:10% ;
+}
+p {
+  text-align: center;
+  size: 2rm;
+  font-weight: bold;
+  color: #aca9a9;
+  line-height: .5px;
+  font-family: var(--font-family)
+}
+.centerH1{
+    text-align: center;
+    
+}
+.btnGet {
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: .5rem;
+}
+.btnGet >a{
+color: white;
+}
+.btnView {
+    margin-left: 45%;
+    background: white;
+    border: px black;
+    width: 12%;
+    transform: none;
+    border-radius: 0.2rem;
+    color: black;
+    height: 41px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: var(--font-family);
+}
+.btns {
+  margin-left: 40%;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px;
+  border-radius: 0.5rem;
+  height: 350px;
+}
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  border: 1px solid #cac7c7;
+  padding: 10px;
+  border-radius: 0.5rem;
+  height: 200px;
+  margin: auto;
+}
+.h5,
+h5 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--font-family);
+}
+.priceTitle {
+  background: #F1ECC3;
+  width: 20%;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #FFD523;
+}
+
+.recommenedDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-title {
+  margin: auto;
+}
+.btnShop{
+    background: var(--main-color);
+    margin: 10px;
+    border: gray;
+    border-radius: .5rem;
+    padding: 10px;
+    color: white;
+}
+.btnShop>a{
+    color: white;
+}
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-left: 38%;
+}
+/* .grid2{
+    display: grid;
+    grid-template-columns: 200px 200px;
+} */
+.card3{
+    width: 90%;
+    height: 150%;
+    border: 1px solid black;
+    position: relative;
+    top: 200px;
+}
+.h1Wlc{
+    font-size: 70px;
+    font-weight: 800;
+}
+.img2{
+    
+}

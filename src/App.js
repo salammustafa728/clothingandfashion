@@ -12,7 +12,7 @@ export class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <Header />
+       <Header />
           <Switch>
             <Route exact path="/">
               <Main />

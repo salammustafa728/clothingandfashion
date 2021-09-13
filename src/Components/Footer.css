@@ -1,0 +1,30 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.main-footer {
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+  background-color: white;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  font-weight: lighter;
+  font-family: "Rubik", sans-serif;
+}
+
+.container2 {
+  margin-left: 10%;
+}
+
+.container2 .col {
+  text-align: left;
+}
+.row-term {
+  text-align: center;
+}
+
+.ingredientFooter {
+  height: 100px;
+}
