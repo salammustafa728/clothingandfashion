@@ -7,7 +7,7 @@ export class Featured extends Component {
       <div>
         <Modal.Dialog show={this.props.show} style={{}}>
           <Modal.Header>
-            <Modal.Title>
+            <Modal.Title className="priceTitle">
               {this.props.price} {this.props.description}
             </Modal.Title>
           </Modal.Header>
