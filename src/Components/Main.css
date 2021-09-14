@@ -20,6 +20,7 @@
   .grid {
     display: grid;
   }
+  
 }
 :root {
   --main-color: #FAFF00;
@@ -30,6 +31,7 @@
 .heroImg{
   background: url("./images/Background.png") no-repeat center;
 }
+
 .hero {
   height: 40em;
   background: url("./images/Background.png") no-repeat center;

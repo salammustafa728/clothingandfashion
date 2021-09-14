@@ -12,7 +12,7 @@ export class Pagination extends Component {
     }
     return (
       <div>
-        <div style={{ margin: "auto", width: "50%" }}>
+        <div style={{ margin: "auto", width: "40%" }}>
           <nav style={{ textAlign: "center" }}>
             <ul className="pagination">
               {pageNum.map((number) => {

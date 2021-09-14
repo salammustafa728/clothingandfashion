@@ -39,4 +39,7 @@
     grid-template-columns: 300px;
   grid-gap: 5px;
   }
+  .pagination{
+    margin-left: 4%;
+  }
 }
