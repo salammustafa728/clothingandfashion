@@ -1,15 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
-
+@media only screen and (max-width: 600px) {
+  
+  p{
+    size: .5rem;
+    
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 100px;
+   }
+}
 :root {
   --main-color: #FAFF00;
   --border-color: #ddd;
   --font-family:'Roboto', sans-serif;
 }
+
+.heroImg{
+  background: url("./images/Background.png") no-repeat center;
+}
 .hero {
   height: 40em;
   background: url("./images/Background.png") no-repeat center;
-  background-size: cover;
+  background-size: auto;
   position: relative;
 }
 
@@ -26,7 +46,7 @@ p {
   size: 2rm;
   font-weight: bold;
   color: #aca9a9;
-  line-height: .5px;
+  /* line-height: .5px; */
   font-family: var(--font-family)
 }
 .centerH1{
@@ -43,16 +63,26 @@ p {
 .btnGet >a{
 color: white;
 }
-.btnView {
-    margin-left: 45%;
-    background: white;
-    border: 1px solid black;
-    width: 12%;
-    transform: none;
-    border-radius: 0.2rem;
-    color: black;
-    height: 41px;
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-left: 50%;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -85,7 +115,6 @@ a{
 }
 .h5,
 h5 {
-  font-size: 1rem;
   text-align: center;
   font-family: var(--font-family);
 }
@@ -121,10 +150,7 @@ h5 {
     list-style: none;
     margin-left: 38%;
 }
-/* .grid2{
-    display: grid;
-    grid-template-columns: 200px 200px;
-} */
+
 .card3{
     width: 90%;
     height: 150%;
@@ -133,6 +159,5 @@ h5 {
     top: 200px;
 }
 .h1Wlc{
-    font-size: 70px;
     font-weight: 800;
 }
