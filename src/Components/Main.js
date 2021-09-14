@@ -3,8 +3,6 @@ import "./Main.css";
 import Products from "./Products";
 import Contact from "./Contact";
 import Recommended from "./Recommended";
-import Background from "./images/Background.png";
-import Featured from "./Featured";
 import { BsFillBagFill } from "react-icons/bs";
 export class Main extends Component {
   render() {
@@ -54,7 +52,7 @@ export class Main extends Component {
         </div>
         <br></br>
         <br></br>
-        <div className="grid2" id="product">
+        <div className="" id="product">
           <Products />
         </div>
         <div id="Contact">

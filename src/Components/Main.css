@@ -12,10 +12,14 @@
   [class*="col-"] {
     width: 100%;
   }
+  .col {
+    flex-basis: 200px;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
   .grid {
     display: grid;
-    grid-template-columns: 100px;
-   }
+  }
 }
 :root {
   --main-color: #FAFF00;
